@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+.til {
+  text-align: center;
+}
+#serv {
+  text-align: center;
+}
+.searchMsg {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  width: 330px;
+  height: 30px;
+}
+#inptSend {
+  width: 48.3vw;
+  margin-left: -6px;
+}
+#inptSend1 {
+  width: 42.1vw;
+  margin-left: -6px;
+}
+#btnSend {
+  background-color: #243666;
+  color: white;
+  border: none;
+  height: 30px;
+}
+.logo {
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 190px;
+  margin-top: -20px;
+}
+#footerLogo {
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 180px;
+  margin-left: 4vw;
+}
+.gdlink {
+  color: white;
+}
+.gdlink :hover {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+}
+#booking {
+  color: #c46720 !important;
+  float: right;
+  margin-right: 7vw;
+  margin-top: 1vw;
+  width: 40px;
+  cursor: pointer;
+}
+#deleteIcon {
+  color: red;
+  float: left;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 2px;
+}
+#srLink {
+  color: white;
+  text-decoration: none;
+}
+.lftsp {
+  background-color: #e7e9eb;
+  min-width: 200px;
+  text-align: center;
+  float: right;
+  border-radius: 15px;
+  margin: 4px;
+}
+.rtsp {
+  float: left;
+  background-color: #97a7d8;
+  border-radius: 15px;
+  text-align: center;
+  margin: 4px;
+  min-width: 200px;
+}
+.crd {
+  margin: 8px;
+}
+
+#verify {
+  color: rgb(85, 221, 85);
+}
+.hrProfile {
+  text-align: center;
+  margin-top: 3vh;
+  font-family: "Akaya Kanadaka", cursive;
+  color: #243666;
+}
+.unContent {
+  margin-top: 18vh;
+}
+#resMt {
+  margin-top: 25vh;
+}
+.min-height {
+  min-height: 320px;
+}
+#red {
+  color: red;
+}
+#green {
+  color: rgb(111, 218, 111);
+}

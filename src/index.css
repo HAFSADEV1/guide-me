@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+#join {
+  background-color: #243666;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  width: 60px;
+}
+#signin {
+  margin-left: 60px;
+}
+.title {
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 60px;
+}
+.fav {
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 40px;
+  color: #243666;
+  margin-top: 17vh;
+}
+#subtitle {
+  color: #f0b001;
+}
+.description {
+  font-size: 20px;
+}
+.sec {
+  box-shadow: rgba(58, 86, 240, 0.24) 0px 3px 8px;
+  height: 270px;
+}
+.titre {
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 40px;
+  color: #243666;
+  margin-top: 12vh;
+}
+.subtitre {
+  color: #f0b001;
+  font-size: 20px;
+}
+.servImg {
+  margin-top: 7vh;
+  height: 69px;
+  margin-bottom: 6vh;
+}
+.blueContainer {
+  margin-top: 10vh;
+  background-color: #243666;
+}
+.cpt {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 6vh;
+}
+.cptTitle {
+  color: white;
+}
+.dvTitle {
+  color: #243666;
+  font-size: 15px;
+}
+.dvImage {
+  width: 300px;
+  height: 220px;
+  cursor: pointer;
+}
+.footerList {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.listItem {
+  margin-left: 2vw;
+}
+#cpy {
+  color: white;
+}
+#rightDiv {
+  display: flex;
+}
+.buttomIcon {
+  color: white;
+}
+.topLi {
+  color: #243666 !important;
+  font-weight: bold;
+}
+.formBox {
+  box-shadow: rgba(168, 203, 255, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 80vw;
+  margin: auto;
+  height: 600px;
+  margin-top: 20vh;
+}
+.formBox2 {
+  box-shadow: rgba(168, 203, 255, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 80vw;
+  margin: auto;
+  min-height: 110vh;
+  height: auto;
+  margin-top: 20vh;
+}
+.submitButton {
+  background-color: #243666;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 130px;
+  height: 40px;
+  margin-top: 6vh;
+  border-radius: 6px;
+}
+#imgLogin {
+  width: 350px;
+  margin: 7vw 0 0 4vw;
+}
+.formLogin {
+  margin-top: 12vw;
+}
+.inpt {
+  outline: 0;
+  border-width: 0 0 1.5px;
+  width: 39vw;
+  margin-top: 7vh;
+}
+.inpt:focus {
+  border-color: #8fa8eb;
+}
+#logButton {
+  margin-top: 2vh;
+  background-color: #243666;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+}
+#linkLogin {
+  color: white;
+  text-decoration: none;
+}
+@keyframes animateDown {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(5px);
+  }
+  60% {
+    transform: translateY(3px);
+  }
+}
+
+#inptGrp {
+  border-radius: 0;
+  width: 300px;
+  border-color: #243666;
+  border-left: none;
+  border-right: none;
+  height: 33px;
+}
+#bntGrp {
+  border-radius: 0;
+  height: 33px;
+  background-color: #243666;
+  color: #243666;
+  border-left: none;
+  border-color: #243666;
+  color: white;
+  text-align: inherit;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#bntGrp1 {
+  border-radius: 0;
+  height: 33px;
+  background-color: transparent;
+  border-right: none;
+  border-color: #243666;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#bntGrp:hover {
+  background-color: #3e559c;
+}
+#searchIcon {
+  color: #243666;
+  margin-bottom: 6px;
+}
+#centerMenu {
+  margin-top: 1.2vw;
+}
+#profileImg {
+  border-radius: 28px;
+  width: 50px;
+  height: 50px;
+  margin-top: -1vw;
+  margin-left: 1vw;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+#navbarClient {
+  background-color: white !important;
+}
+#vid {
+  width: 50vw;
+  height: 65vh;
+}
+#findOut {
+  background-color: #243666;
+  color: white;
+  width: 190px;
+  height: 34px;
+  border: none;
+}
+#column {
+  padding-top: 100px;
+}
+.cardProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  float: left;
+}
+#imgTop {
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 200px;
+  cursor: pointer;
+}
+#fastar {
+  color: yellow;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+#card {
+  margin-bottom: 10px;
+}
+#fav {
+  float: left;
+  color: rgb(201, 174, 174);
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 20px;
+}
+#fav:hover {
+  color: rgb(153, 31, 31);
+}
